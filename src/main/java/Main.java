@@ -8,6 +8,7 @@ public class Main {
         frame.add(new WallClock());
         frame.setSize(300, 300);
         frame.setResizable(false);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
 }
